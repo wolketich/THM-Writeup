@@ -40,3 +40,31 @@
 (Note: it's highly advisable to always use at least this option)
 
 	- `-vv`
+
+- We should always save the output of our scans -- this means that we only need to run the scan once (reducing network traffic and thus chance of detection), and gives us a reference to use when writing reports for clients.
+What switch would you use to save the nmap results in three major formats?
+
+	- `-oA`
+
+- What switch would you use to save the nmap results in a "normal" format?
+
+	- `-oN`
+
+- A very useful output format: how would you save results in a "grepable" format?
+
+	- `-oG`
+
+- Sometimes the results we're getting just aren't enough. If we don't care about how loud we are, we can enable "aggressive" mode. This is a shorthand switch that activates service detection, operating system detection, a traceroute and common script scanning.
+How would you activate this setting?
+
+	- `-A`
+
+- Nmap offers five levels of "timing" template. These are essentially used to increase the speed your scan runs at. Be careful though: higher speeds are noisier, and can incur errors!
+How would you set the timing template to level 5?
+
+	- `-t5`
+
+- We can also choose which port(s) to scan.
+How would you tell nmap to only scan port 80?
+
+	- `-p 80`
