@@ -160,3 +160,34 @@ What is the filename of the script which determines the underlying OS of the SMB
 - [Research] Which Nmap switch allows you to append an arbitrary length of random data to the end of packets?
 
 	- `--data-length`
+
+- Does the target (<TARGET_IP>) respond to ICMP (ping) requests (Y/N)?
+
+	- `N`
+
+- Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?
+
+	- `sudo nmap -sX -vv -Pn -p -999 <TARGET_IP>`
+	- `999`
+
+- There is a reason given for this -- what is it?
+Note: The answer will be in your scan results. Think carefully about which switches to use -- and read the hint before asking for help!
+
+	- `no responses`
+
+- Perform a TCP SYN scan on the first 10000 ports of the target -- how many ports are shown to be open?
+
+	- `sudo nmap -sS -Pn -vv -p -10000 <TARGET_IP>`
+	- `5`
+
+- Open Wireshark and perform a TCP Connect scan against port 80 on the target, monitoring the results. Make sure you understand what's going on.
+
+	  N/A
+
+- Deploy the ftp-anon script against the box. Can Nmap login successfully to the FTP server on port 21? (Y/N)
+
+	- `Y`
+
+- Read the conclusion.
+
+	  No answer
