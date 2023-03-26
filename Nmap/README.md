@@ -133,3 +133,30 @@ How would you tell nmap to scan all ports?
 - What language are NSE scripts written in?
 
 	- `Lua`
+
+- Which category of scripts would be a very bad idea to run in a production environment?
+
+	- `intrusive`
+
+- What optional argument can the ftp-anon.nse script take?
+
+	- `maxlist`
+
+- Search for "smb" scripts in the /usr/share/nmap/scripts/ directory using either of the demonstrated methods.
+What is the filename of the script which determines the underlying OS of the SMB server?
+
+	- `ls -lah | grep smb`
+	- `smb-os-discovery.nse`
+
+- Read through this script. What does it depend on?
+
+	- `cat smb-os-discovery.nse`, see the line `dependencies = {"smb-brute"}`
+	- `smb-brute`
+
+- Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch?
+
+	- `icmp`
+
+- [Research] Which Nmap switch allows you to append an arbitrary length of random data to the end of packets?
+
+	- `--data-length`
