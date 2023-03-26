@@ -19,3 +19,24 @@
 - What is the first switch listed in the help menu for a 'Syn Scan' (more on this later!)?
 
 	- `-sS`
+
+- Which switch would you use for a "UDP scan"?
+
+	- `-sU`
+
+- If you wanted to detect which operating system the target is running on, which switch would you use?
+
+	- `-O`
+
+- Nmap provides a switch to detect the version of the services running on the target. What is this switch?
+
+	- `-sV`
+
+- The default output provided by nmap often does not provide enough information for a pentester. How would you increase the verbosity?
+
+	- `-v`
+
+- Verbosity level one is good, but verbosity level two is better! How would you set the verbosity level to two?
+(Note: it's highly advisable to always use at least this option)
+
+	- `-vv`
