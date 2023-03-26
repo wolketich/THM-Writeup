@@ -93,3 +93,43 @@ How would you tell nmap to scan all ports?
 - Which RFC defines the appropriate behaviour for the TCP protocol?
 
 	- `RFC 793`
+
+- If a port is closed, which flag should the server send back to indicate this?
+
+	- `rst`
+
+- There are two other names for a SYN scan, what are they?
+
+	- `Half-open,stealth`
+
+- Can Nmap use a SYN scan without Sudo permissions (Y/N)?
+
+	- `N`
+
+- If a UDP port doesn't respond to an Nmap scan, what will it be marked as?
+
+	- `open|filtered`
+
+- When a UDP port is closed, by convention the target should send back a "port unreachable" message. Which protocol would it use to do so?
+
+	- `icmp`
+
+- Which of the three shown scan types uses the URG flag?
+
+	- `Xmas`
+
+- Why are NULL, FIN and Xmas scans generally used?
+
+	- `firewall evasion`
+
+- Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port?
+
+	- `Microsoft Windows`
+
+- How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation)
+
+	- `nmap -sn 172.16.0.0/16`
+
+- What language are NSE scripts written in?
+
+	- `Lua`
