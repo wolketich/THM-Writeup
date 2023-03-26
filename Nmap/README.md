@@ -68,3 +68,28 @@ How would you set the timing template to level 5?
 How would you tell nmap to only scan port 80?
 
 	- `-p 80`
+
+- How would you tell nmap to scan ports 1000-1500?
+
+	- `-p 1000-1500`
+
+- A very useful option that should not be ignored:
+How would you tell nmap to scan all ports?
+
+	- `-p-`
+
+- How would you activate a script from the nmap scripting library (lots more on this later!)?
+
+	- `--script`
+
+- How would you activate all of the scripts in the "vuln" category?
+
+	- `--script=vuln`
+
+- Read the Scan Types Introduction.
+
+	  no answer needed
+
+- Which RFC defines the appropriate behaviour for the TCP protocol?
+
+	- `RFC 793`
