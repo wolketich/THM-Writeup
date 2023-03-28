@@ -364,8 +364,7 @@ if a dog was sleeping, would this be:
 
 - How many characters are in /etc/passwd (use `wc -c /etc/passwd` to get the answer)
 
-	- I found more than one exploit, anyway I use the most efficient and dangerous.
-	- `python3 47887.py <TARGET_IP>`
+	- `python3 exp-47887.py <TARGET_IP>`
 	- `id`
 	- `wc -c /etc/passwd`
 	- `****`
