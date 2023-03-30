@@ -21,3 +21,28 @@ If you are experiencing trouble, google `wireshark follow tcp stream`
 
 	- Packet no. 120
 	- `https://github.com/NinjaJc01/ssh-backdoor`
+
+- Using the fasttrack wordlist, how many of the system passwords were crackable?
+
+	- Save the content of response 114 on a file called `shadow`
+	- `john --wordlist=fasttrack.txt shadow`
+	- `*`
+
+- What's the default hash for the backdoor?
+
+	- [ssh-backdoor](https://github.com/NinjaJc01/ssh-backdoor/blob/master/main.go)
+	- `******** ... ********`
+
+- What's the hardcoded salt for the backdoor?
+
+	- Same file as above
+	- `********************************`
+
+- What was the hash that the attacker used? - go back to the PCAP for this!
+
+	- `*********** ... **************`
+
+- Crack the hash using rockyou and a cracking tool of your choice. What's the password?
+
+	- `hashcat -m 1710 -a 0 HASH_HERE:SALT_HERE /usr/share/wordlists/rockyou.txt`
+	- `**********`
