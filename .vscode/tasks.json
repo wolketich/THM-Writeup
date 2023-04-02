@@ -14,7 +14,7 @@
 		"label": "Commit",
 		"command": "../gd", // just the script name here
 		"args": [
-		  "${input:commitDay}/03/2023" // here we reference the input
+		  "${input:commitDay}/04/2023" // here we reference the input
 		],
 		"problemMatcher": [],
 		"group": {
