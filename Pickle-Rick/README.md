@@ -26,3 +26,13 @@ Deploy the virtual machine on this task and explore the web application.
 	- Now you are inside the target machine. Search for some cool ingredient inside home folder.
 	- In /home/rick there is the `second ingredients` file.
 	- `1 jerry tear`
+
+    - Whats the final ingredient Rick needs?
+
+	- `sudo -l`.
+	- Fuck. I can do everything.
+	- `sudo su`
+	- `cd /root`
+	- `ls -alh`
+	- `cat 3rd.txt`
+	- `f**** ***ce`
