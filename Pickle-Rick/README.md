@@ -30,7 +30,7 @@ Deploy the virtual machine on this task and explore the web application.
     - Whats the final ingredient Rick needs?
 
 	- `sudo -l`.
-	- Fuck. I can do everything.
+    - We can execude any command as root without password
 	- `sudo su`
 	- `cd /root`
 	- `ls -alh`
