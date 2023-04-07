@@ -109,3 +109,26 @@
 - Upload a webshell on the Windows target and try to obtain a reverse shell using Powershell.
 
 	  no answer needed
+- The webserver is running with SYSTEM privileges. Create a new user and add it to the "administrators" group, then login over RDP or WinRM.
+
+	  no answer needed
+
+- Experiment using socat and netcat to obtain reverse and bind shells on the Windows Target.
+
+	  no answer needed
+
+- Create a 64bit Windows Meterpreter shell using msfvenom and upload it to the Windows Target. Activate the shell and catch it with multi/handler. Experiment with the features of this shell.
+
+	  no answer needed
+
+- Create both staged and stageless meterpreter shells for either target. Upload and manually activate them, catching the shell with netcat -- does this work?
+
+	  no answer needed
+
+- No Answer Required
+
+	  no answer needed
+
+- No answer required
+
+	  no answer needed
