@@ -103,3 +103,15 @@
 - Looking at the data stream what is the full request URI for packet 50?
 
 	- `https://localhost/icons/****.***`
+
+- What is the User-Agent listed in packet 50?
+
+	- `Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.0.2) Gecko/20060308 Firefox/*.*.*.*`
+
+- Read the above and analyze the PCAP yourself  to piece together the events that occurred.
+
+	  no answer needed
+
+- Check out the provided links and keep learning!
+
+	  no answer needed
