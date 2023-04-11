@@ -73,3 +73,33 @@
 
 	- Into `Statistics` tab
 	- `4.7`
+
+- What endpoint ends in .237?
+
+	- Into `Statistics` tab
+	- `***.254.160.237`
+
+- What is the user-agent listed in packet 4?
+
+	- `Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6) Gecko/********`
+
+- Looking at the data stream what is the full request URI from packet 18?
+
+	- `http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-2309191948673629&random=1084443430285&lmt=1082467020&format=468x60_as&output=html&url=http%3A%2F%2Fwww.ethereal.com%2Fdownload.html&color_bg=FFFFFF&color_text=333333&color_link=000000&color_url=666633&color_border=******`
+
+- What domain name was requested from packet 38?
+
+	- `www.********.com`
+
+- Looking at the data stream what is the full request URI from packet 38?
+
+	- `http://www.**********.com/download.html`
+
+- Looking at the data stream what is the full request URI for packet 31?
+
+	- Add the key as described.
+	- `https://localhost/icons/**********.png`
+
+- Looking at the data stream what is the full request URI for packet 50?
+
+	- `https://localhost/icons/****.***`
