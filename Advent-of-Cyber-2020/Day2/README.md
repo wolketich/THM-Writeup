@@ -29,5 +29,3 @@ In which directory are the uploaded files stored?
 	- `cat /var/www/flag.txt`
 
 	- `THM{**********************************}`
-
-## see you ...
