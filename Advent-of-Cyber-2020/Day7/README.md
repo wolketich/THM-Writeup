@@ -27,5 +27,3 @@ There's a lot of irrelevant data here - Using a filter here would be useful!
 What is on Elf McSkidy's wishlist that will be used to replace Elf McEager?
 
 	- `Rubber ducky`
-
-## see you ...
