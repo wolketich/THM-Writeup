@@ -1,6 +1,5 @@
 # Ready, set, elf.
 
-
 - What is the version number of the web server?
 
 	- `nmap -sV <TARGET_IP>` (Remember, if it says "host seems down", use `-Pn`, look for what it means)
