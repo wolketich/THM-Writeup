@@ -31,5 +31,3 @@
 - Looking for a challenge? Try to find out some of the vulnerabilities present to escalate your privileges!
 
 	  no answer needed
-
-
