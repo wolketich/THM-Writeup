@@ -43,7 +43,6 @@
 
 - Run the commands to compile the exploit, and run it.
 What "new" username was created, with the default operations of the real C source code?
-
 	- `./dirty` and then enter the password you've chosen
 	- `firefart`
 
