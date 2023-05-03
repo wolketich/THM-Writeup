@@ -1,7 +1,6 @@
 # Coal for Christmas
 
 - Hi Santa, hop in your sleigh and deploy this machine!
-
 	  no answer needed
 
 - nmap <TARGET_IP>
