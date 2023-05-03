@@ -53,8 +53,3 @@ What "new" username was created, with the default operations of the real C sourc
 	- `touch coal`
 	- `tree | md5sum`
 	- `********************************`
-
-
-
-
-### see you ...
