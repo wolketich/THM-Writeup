@@ -13,7 +13,6 @@
 	- Google is your friend.. `May`
 
 - On what other social media platform might Rudolph have an account?
-
 	- Twitter Search
 	- `https://twitter.com/IGuideClaus2020`
 	- `twitter`
