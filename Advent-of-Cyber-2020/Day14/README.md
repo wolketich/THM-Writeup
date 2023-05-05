@@ -7,7 +7,6 @@
 - According to Rudolph, where was he born?
 
 	- `Chicago`
-
 - Rudolph mentions Robert.  Can you use Google to tell me Robert's last name?
 
 	- Google is your friend.. `May`
