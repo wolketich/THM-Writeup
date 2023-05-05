@@ -1,5 +1,4 @@
 # Where's Rudolph?
-
 - What URL will take me directly to Rudolph's Reddit comment history?
 
 	- Google is your best friend. `https://www.reddit.com/user/IGuidetheClaus2020/comments/`
