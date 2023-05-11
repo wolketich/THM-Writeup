@@ -12,3 +12,12 @@ Password: `Adventofcyber!`
 	- Start Remmina, enter the IP, the username and password.
 	- Open ILSpy, click `File` and open `TBFC_APP`
 
+- What is Santa's password?
+
+	- In the root folder we see there are a lot of contents. Functions, libraries, main. Then we find a folder called `CrackMe`. Inside that folder there is the Main form code. If you analyze all the code when the button `Sumbit password` is pressed it calls the function `buttonActivate_Click`... mmmh. Let's take a look.
+	- The first function called is reference to a Module that include this `internal static $ArrayType$$$BY0BB@$$CBD ??_C@_0BB@IKKDFEPG@****************@/* Not supported: data(** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **) */;`. :)
+	- `*************`
+
+- Now that you've retrieved this password, try to login...What is the flag?
+
+	- `***{*****}`
