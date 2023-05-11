@@ -1,0 +1,14 @@
+# The Bits of Christmas
+
+
+Username: `cmnatic`
+
+Password: `Adventofcyber!`
+
+
+- Open the "TBFC_APP" application in ILspy and begin decompiling the code
+
+	- Open `Remmina` on your machine or download it with `sudo apt install remmina`
+	- Start Remmina, enter the IP, the username and password.
+	- Open ILSpy, click `File` and open `TBFC_APP`
+
