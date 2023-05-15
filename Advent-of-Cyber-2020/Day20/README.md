@@ -1,4 +1,5 @@
 # PowershELlF to the rescue
+
 - Search for the first hidden elf file within the Documents folder. Read the contents of this file. What does Elf 1 want?
 
 	- `ssh -l mceager <TARGET_IP>`
