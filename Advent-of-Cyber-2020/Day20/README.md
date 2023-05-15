@@ -32,6 +32,7 @@
 
 	- `Get-Content 1.txt | Measure-Object -Word`
 	- `9999`
+    
 - What 2 words are at index 551 and 6991 in the first file?
 
 	- `(Get-Content .\1.txt)[551]`
