@@ -39,3 +39,8 @@ We'll use [CyberChef](https://gchq.github.io/CyberChef/) also.
 	- Paste this input in CyberChef with recipe `From HTML Entity`.
 	- `********ng!`
 
+- Decode the last encoded value. What is the flag?
+
+	- Switch Keepass tab to see Recycle Bin entries.
+	- Open the unique entry.
+	- The password shown in cleartext without bullets is `nothinghere`. Mhh...
