@@ -1,5 +1,5 @@
 <h2 align="center">
-  <b>TryHackMe write-ups.</b>
+  <b>TryHackMe write-ups</b>
 </h2>
 
 
